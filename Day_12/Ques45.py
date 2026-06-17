@@ -9,6 +9,7 @@ def palindrome(n):
         n = n // 10
     return original == rev
 
+
 num = int(input("Enter a number: "))
 if palindrome(num):
     print("Palindrome")
